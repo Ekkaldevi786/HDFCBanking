@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.626">
+    <testcase classname="Amazon order page" name="Check The Privious Order Details" time="0.126">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given A registered user exists..............................................passed
+Given user is on amazon login Page..........................................passed
+When user enters username...................................................passed
+And user enters password....................................................passed
+And user clicks on login button.............................................passed
+Then user navigate to order page............................................passed
+When user clicks on Privious order Link.....................................passed
+Then user checks the prievious order details................................passed
+Then user check Details.....................................................undefined
+]]></failure>
+    </testcase>
+    <testcase classname="Amazon order page" name="Check open Order Details" time="0.013">
+        <system-out><![CDATA[Given A registered user exists..............................................passed
+Given user is on amazon login Page..........................................passed
+When user enters username...................................................passed
+And user enters password....................................................passed
+And user clicks on login button.............................................passed
+Then user navigate to order page............................................passed
+When user clicks on open order Link.........................................passed
+Then user checks the open order details.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon order page" name="Check Cancelled Order Details" time="0.01">
+        <system-out><![CDATA[Given A registered user exists..............................................passed
+Given user is on amazon login Page..........................................passed
+When user enters username...................................................passed
+And user enters password....................................................passed
+And user clicks on login button.............................................passed
+Then user navigate to order page............................................passed
+When user clicks on Cancelled order Link....................................passed
+Then user checks the cancelled order details................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
